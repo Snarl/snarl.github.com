@@ -23,12 +23,21 @@ body {
     margin: 20px;
 }
 
+#menucontent a {
+    text-decoration: none;
+}
+
 #main {
     width:77%
     position: absolute;
     right: 0px;
     margin-left: 33%;
     padding-top: 120;
+    min-width: 500px;
+}
+
+#maincontent {
+    width: 500px;
 }
 
 h1 {
@@ -39,15 +48,27 @@ h1 {
 }
 			
 #code {
-		margin-top: 20px; 
+	margin-top: 20px; 
+    height: 36px;
+    width: 152px;
+    background-image: url(../img/codebuttonup.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    float: right;
 }
 
 #code:hover {
-	background-color: black;
+    background-position: 0px -36px;
+    margin-top: 20px;
+    height: 36px;
+    width: 152px;
+    background-repeat: no-repeat;
 }
 
 a {
 	text-decoration: none;
+    color: #d7a50d;
+    font-weight:bold;
 }
 
 a:hover {
@@ -64,10 +85,14 @@ h3 {
 	margin: 0px;
 	display: inline;
 	font-size: 3em;
+    width: 500px;
+    color: #ffffff;
+    background: #000000;
 }
 
 p {
 	display: block;
+    padding-left: 1em;
 }
 
 li {
@@ -78,12 +103,7 @@ li {
 ul {
 	list-style: none;
 	margin-left: 0;
-	padding-left: 1em;
-}
-
-ul li:before {
-	content: "\2767 \0020";
-	font-size: 5em;
+	padding-left: 0em;
 }
 
 #footer {
