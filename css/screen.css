@@ -1,0 +1,92 @@
+body {
+	font-family: "Futura", "helvetica", "Arial", sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu {
+    position: fixed;
+    width: 33%;
+    height: 100%;
+    background-color: #000000;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    min-width: 240px;
+}
+
+#menucontent {
+    float: right;
+    text-align: right;
+    width: 200px;
+    margin: 20px;
+}
+
+#main {
+    width:77%
+    position: absolute;
+    right: 0px;
+    margin-left: 33%;
+    padding-top: 120;
+}
+
+h1 {
+	text-transform: lowercase;
+	text-align: center;
+	font-size: 10em;
+	margin-bottom: 0px;
+}
+			
+#code {
+		margin-top: 20px; 
+}
+
+#code:hover {
+	background-color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 2em;
+}
+			
+h3 {
+	margin: 0px;
+	display: inline;
+	font-size: 3em;
+}
+
+p {
+	display: block;
+}
+
+li {
+	list-style-image: none;
+	list-style-type: none;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+}
+
+ul li:before {
+	content: "\2767 \0020";
+	font-size: 5em;
+}
+
+#footer {
+	font-size: 0.5em;
+	text-align: center;
+}	
