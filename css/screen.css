@@ -85,26 +85,34 @@ h2 {
 h3 {
 	margin: 0px;
 	display: inline;
-	font-size: 3em;
+	font-size: 16px;
     width: 500px;
     color: #ffffff;
     background: #000000;
+    padding: 10px 10px 10px 15px;
+    line-height: 3;
 }
 
 p {
 	display: block;
-    padding-left: 1em;
+    padding-left: 15px;
 }
 
 li {
 	list-style-image: none;
 	list-style-type: none;
+    margin-bottom: 40px;
 }
 
 ul {
 	list-style: none;
 	margin-left: 0;
 	padding-left: 0em;
+}
+
+.headerspan {
+    width: 100%;
+    background-color: #000000;
 }
 
 #footer {
