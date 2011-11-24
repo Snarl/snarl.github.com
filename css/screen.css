@@ -1,0 +1,121 @@
+body {
+	font-family: "Futura", "helvetica", "Arial", sans-serif;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+#menu {
+    position: fixed;
+    width: 33%;
+    height: 100%;
+    background-color: #000000;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    min-width: 240px;
+}
+
+#menucontent {
+    float: right;
+    text-align: right;
+    width: 200px;
+    margin: 20px;
+}
+
+#menucontent a {
+    text-decoration: none;
+}
+
+#main {
+    width:77%
+    position: absolute;
+    right: 0px;
+    margin-left: 33%;
+    padding-top: 150;
+    min-width: 500px;
+}
+
+#maincontent {
+    width: 500px;
+}
+
+h1 {
+	text-transform: lowercase;
+	text-align: center;
+	font-size: 10em;
+	margin-bottom: 0px;
+}
+			
+#code {
+	margin-top: 20px; 
+    height: 36px;
+    width: 152px;
+    background-image: url(../img/codebuttonup.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    float: right;
+}
+
+#code:hover {
+    background-position: 0px -36px;
+    margin-top: 20px;
+    height: 36px;
+    width: 152px;
+    background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+    color: #d7a50d;
+    font-weight:bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h2 {
+	margin-top: 0px;
+	text-align: center;
+	font-size: 2em;
+}
+			
+h3 {
+	margin: 0px;
+	display: inline;
+	font-size: 16px;
+    width: 500px;
+    color: #ffffff;
+    background: #000000;
+    padding: 10px 10px 10px 15px;
+    line-height: 3;
+}
+
+p {
+	display: block;
+    padding-left: 15px;
+}
+
+li {
+	list-style-image: none;
+	list-style-type: none;
+    margin-bottom: 40px;
+}
+
+ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0em;
+}
+
+.headerspan {
+    width: 100%;
+    background-color: #000000;
+}
+
+#footer {
+	font-size: 0.5em;
+	text-align: center;
+}	
